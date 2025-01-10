@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Immagini */
 #lampadine {
     display: flex;
     justify-content: center;
@@ -28,9 +29,9 @@
 
 #bottone {
     text-align: center;
-
 }
 
+/* Bottoni */
 #btn {
     font-size: 20px;
     padding: 30px;

@@ -5,16 +5,26 @@ const btnOnOff = document.getElementById('btn');
 
 
 // Il bottone viene cliccato
-btnOnOff.addEventListener("click", function () {
+btnOnOff.addEventListener("click", event => {
     // L'immagine cambia
-    luceOff.classList = "spenta2";
-    luceOn.classList = "accesa2";
-    luceOn.classList.remove = "accesa";
+    luceOff.classList.toggle("spenta2");
+    luceOn.classList.toggle("accesa");
+    // luceOn.classList.remove = "accesa";
 
-    // Cambia il testo
-    btnOnOff.innerHTML = 'Spegni';
+    // Il testo cambia 
+    if (btnOnOff.innerText === 'Accendi') {
+        btnOnOff.innerText = 'Spegni';
+    } else {
+        btnOnOff.innerText = 'Accendi';
+    }
+
+    // btnOnOff.innerText = 'Spegni';
 
     // Cambia Colore
-    btnOnOff.classList = "btn-color2"
+    btnOnOff.classList.toggle("btn-color2");
+
 });
+
+
+
 
