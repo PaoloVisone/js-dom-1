@@ -10,22 +10,39 @@
     align-items: center;
 }
 
-#accesa {
+.accesa2 {
+    display: block;
+}
+
+.accesa {
     display: none;
 }
 
-#spenta {
-    /* display: none; */
+.spenta {
+    /* display: block; */
+}
+
+.spenta2 {
+    display: none;
 }
 
 #bottone {
     text-align: center;
+
 }
 
 #btn {
-    background-color: yellow;
-    padding: 20px;
+    font-size: 20px;
+    padding: 30px;
     border-radius: 10px;
     text-decoration: none;
     color: black;
+}
+
+.btn-color {
+    background-color: paleturquoise;
+}
+
+.btn-color2 {
+    background-color: yellow;
 }
