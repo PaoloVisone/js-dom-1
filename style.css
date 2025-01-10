@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lampadine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accesa {
+    display: none;
+}
+
+#spenta {
+    /* display: none; */
+}
+
+#bottone {
+    text-align: center;
+}
+
+#btn {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
